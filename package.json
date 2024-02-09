@@ -1,0 +1,39 @@
+{
+  "name": "pixelmusic",
+  "version": "1.0.0",
+  "description": "lavalink music bot in ",
+  "main": "shard.js",
+  "scripts": {
+    "start": "node shard.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon shard.js"
+  },
+  "keywords": [
+    "lavalink",
+    "shoukaku",
+    "music",
+    "discord-music",
+    "discord",
+    "musicbot",
+    "music-bot-discord",
+    "music-bot",
+    "discord.js-v14"
+  ],
+  "author": "Sophan-Developer",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "shoukaku": "^4.0.1",
+    "signale": "^1.4.0"
+  },
+  "signale": {
+    "displayScope": true,
+    "displayBadge": true,
+    "displayDate": true,
+    "displayFilename": true,
+    "displayLabel": true,
+    "displayTimestamp": true,
+    "underlineLabel": true
+  }
+}
